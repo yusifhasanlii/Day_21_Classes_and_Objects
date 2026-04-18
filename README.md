@@ -1,7 +1,5 @@
 # Day 21: Object-Oriented Programming (OOP) in Python
 
-Welcome to the 21st day of my "30 Days of Python" challenge! This repository focuses on mastering **Object-Oriented Programming (OOP)**, a fundamental paradigm that allows for modular, reusable, and efficient code architecture.
-
 ## Overview
 In this module, I explored how to structure code using classes and objects. By transitioning from procedural to object-oriented thinking, I learned how to define custom blueprints for data structures, manage internal states using constructors (`__init__`), and implement custom methods to manipulate data.
 
