@@ -1,66 +1,35 @@
-\# Day 21: Object-Oriented Programming (OOP) in Python
+# Day 21: Object-Oriented Programming (OOP) in Python
 
+Welcome to the 21st day of my "30 Days of Python" challenge! This repository focuses on mastering **Object-Oriented Programming (OOP)**, a fundamental paradigm that allows for modular, reusable, and efficient code architecture.
 
+## Overview
+In this module, I explored how to structure code using classes and objects. By transitioning from procedural to object-oriented thinking, I learned how to define custom blueprints for data structures, manage internal states using constructors (`__init__`), and implement custom methods to manipulate data.
 
-\## Overview
-
-In this module, I explored how to structure code using classes and objects. By transitioning from procedural to object-oriented thinking, I learned how to define custom blueprints for data structures, manage internal states using constructors (`\_\_init\_\_`), and implement custom methods to manipulate data.
-
-
-
-\## Project Structure
-
+## Project Structure
 This repository contains two core exercises designed to practice class construction, inheritance, and method implementation:
 
-
-
-\### 1. Statistics Module (`level\_1\_statistics.py`)
-
+### 1. Statistics Module (`level_1_statistics.py`)
 This script features a `Statistics` class that encapsulates a dataset and performs comprehensive statistical analysis.
+* **Functionality:** Calculates mean, median, mode, range, variance, and standard deviation.
+* **Key Features:** Includes data description methods, frequency distribution, and min/max tracking.
+* **Goal:** To apply OOP principles to mathematical data processing.
 
-\* \*\*Functionality:\*\* Calculates mean, median, mode, range, variance, and standard deviation.
-
-\* \*\*Key Features:\*\* Includes data description methods, frequency distribution, and min/max tracking.
-
-\* \*\*Goal:\*\* To apply OOP principles to mathematical data processing.
-
-
-
-\### 2. Person Account Manager (`level\_2\_person\_account.py`)
-
+### 2. Person Account Manager (`level_2_person_account.py`)
 This script implements a `PersonAccount` class designed to track personal finance.
+* **Functionality:** Manages income and expense records using sets and lists.
+* **Key Features:** Methods to add income/expenses, calculate total balances, and generate a formatted account summary.
+* **Goal:** To manage complex object state and maintain data integrity.
 
-\* \*\*Functionality:\*\* Manages income and expense records using sets and lists.
+## Technologies Used
+* **Language:** Python 3.x
+* **Core Concepts:** Classes, Objects, Constructors, Instance Methods, Data Encapsulation.
 
-\* \*\*Key Features:\*\* Methods to add income/expenses, calculate total balances, and generate a formatted account summary.
-
-\* \*\*Goal:\*\* To manage complex object state and maintain data integrity.
-
-
-
-\## Technologies Used
-
-\* \*\*Language:\*\* Python 3.x
-
-\* \*\*Core Concepts:\*\* Classes, Objects, Constructors, Instance Methods, Data Encapsulation.
-
-
-
-\## How to Run
-
+## How to Run
 Ensure you have Python installed on your system. You can execute each script independently via your terminal:
 
-
-
 ```bash
+# To run the statistics analysis
+python level_1_statistics.py
 
-\# To run the statistics analysis
-
-python level\_1\_statistics.py
-
-
-
-\# To run the personal account manager
-
-python level\_2\_person\_account.py
-
+# To run the personal account manager
+python level_2_person_account.py
